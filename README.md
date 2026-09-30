@@ -1,3 +1,11 @@
+# AWS Real-Time Data Ingest Pipeline
+
+[English](README.md) | [日本語](README.ja.md)
+
+A Python and Terraform sample for reading CSV data and streaming it into Amazon Kinesis, with build, test, deployment, and streaming scripts.
+
+---
+
 # aws_pipeline
 
 # AWS Real-Time Data Ingest Pipeline
@@ -25,6 +33,3 @@ The pipeline reads data from a CSV file (`recommended-fishing-rivers-and-streams
 3. Run `unit_test.sh` to execute unit tests.
 4. Run `deploy.sh` to deploy the AWS infrastructure.
 5. Run `stream.sh` to start the data streaming.
-
-
-
