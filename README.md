@@ -14,7 +14,7 @@ This repository contains the code and configuration files for setting up a real-
 
 ## Overview
 
-The pipeline reads data from a CSV file (`recommended-fishing-rivers-and-streams-1.csv`) and streams it into an AWS Kinesis Stream. It also includes a Terraform configuration for setting up the Kinesis Stream and bash scripts for building, testing, and deploying the pipeline.
+The pipeline reads data from a CSV file (`recommended-fishing-rivers-and-streams-1.csv`) and streams it into an AWS Kinesis Stream. Note that the CSV file is not included in this repository and the script uses a placeholder path. You must supply a CSV and adjust the placeholder in the script before use. It also includes a Terraform configuration for setting up the Kinesis Stream and bash scripts for building, testing, and deploying the pipeline.
 
 ## Files
 
